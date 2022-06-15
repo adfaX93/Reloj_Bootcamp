@@ -166,5 +166,9 @@ public class Reloj {
         }
         return ("[" + h + ":" + m + ":" + s + "]");
     }
+
+    public void imprimirMensaje(){
+        System.out.println("Mensaje generico");
+    }
 }
 

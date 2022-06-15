@@ -1,4 +1,6 @@
 import java.util.Scanner;
+import java.util.*;
+
 
 public class RelojDemo {
     public static void main(String[] args) {
@@ -17,5 +19,9 @@ public class RelojDemo {
         Reloj reloj1 = new Reloj(segundos);
         System.out.println(reloj1.toSg());
         System.out.println("Diferencia absoluta entre los tiempos es: "+reloj.restaReloj(reloj1));
+
+        System.out.println("Hola Alex que tal");
+        reloj.imprimirMensaje();
+
     }
 }
